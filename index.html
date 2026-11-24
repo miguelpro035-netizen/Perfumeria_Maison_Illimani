@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es" data-negocio="maison-illimani" data-tema="claro" data-tema-defecto="claro" data-edad="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Maison Illimani — Perfumería de autor. Catálogo en línea: Alta perfumería en Bolivia.">
+  <meta name="theme-color" content="#fbf6f3">
+  <title>Maison Illimani · Perfumería de autor | La Paz</title>
+  <link rel="manifest" href="manifest.json"><link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>try{var t=JSON.parse(localStorage.getItem('maison-illimani:tema'));if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/jquery-3.6.0.min.js" defer></script>
+  <script src="vendor/purify.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head><body class="pagina" data-hidratado="false">
+  <header class="encabezado">
+    <div class="encabezado__menu" id="contenedorMenu" data-hidratado="false"><button class="boton-icono boton-icono--estatico" id="btnMenu" type="button" aria-label="Menú (cargando)" aria-expanded="false" aria-controls="menu">☰</button></div>
+    <a class="marca" href="#inicio" aria-label="Maison Illimani inicio"><img class="marca__logo" src="assets/images/logo.svg" width="44" height="44" alt=""><span class="marca__texto"><b class="marca__nombre" data-site="nombre">Maison Illimani</b><small class="marca__lema" data-site="lema">Perfumería de autor</small></span></a>
+    <nav class="menu" id="menu" aria-label="Menú principal"><ul class="menu__lista"><li class="menu__item"><a class="menu__enlace" href="#colecciones">Colecciones</a></li><li class="menu__item"><a class="menu__enlace" href="#catalogo">Catálogo</a></li><li class="menu__item"><a class="menu__enlace" href="#filtros">Encuentra tu fragancia</a></li><li class="menu__item"><a class="menu__enlace" href="#notas">Guía olfativa</a></li><li class="menu__item"><a class="menu__enlace" href="#contacto">Contacto</a></li></ul></nav>
+    <div class="encabezado__acciones"><span class="estado-red" id="estadoRed" role="status">🟢 En línea</span>
+      <button class="boton-icono" id="botonTema" type="button" aria-label="Cambiar entre modo claro y oscuro" aria-pressed="false">☀</button>
+      <button class="boton-icono abrir-carrito" type="button" aria-label="Abrir carrito">🛍<span class="insignia" id="contadorCarrito">0</span></button></div>
+  </header>
+  <main id="inicio">
+    <section class="contenedor portada"><div class="carrusel" data-carrusel><button class="carrusel__flecha carrusel__flecha--izq" data-dir="-1" type="button" aria-label="Anterior">‹</button><button class="carrusel__flecha carrusel__flecha--der" data-dir="1" type="button" aria-label="Siguiente">›</button><div class="carrusel__diapositiva"><p class="portada__sobretitulo">Alta perfumería en Bolivia</p><h2>Maison Illimani</h2><p>Fragancias de autor y de marca que trascienden. Descubre tu firma olfativa con asesoría personalizada.</p><img class="carrusel__imagen" src="assets/images/maison-illimani-illimani-noir.svg" width="400" height="500" alt="Maison Illimani" fetchpriority="high"></div><div class="carrusel__diapositiva"><p class="portada__sobretitulo">Clásicos atemporales</p><h2>Chanel N°5</h2><p>El perfume que nunca pasa de moda, ahora a un toque de distancia.</p><img class="carrusel__imagen" src="assets/images/chanel-n-5.svg" width="400" height="500" alt="Chanel N°5" loading="lazy"></div><div class="carrusel__diapositiva"><p class="portada__sobretitulo">Para ellos</p><h2>Dior Sauvage</h2><p>Fresco, intenso y versátil. Elige 60 o 100 ml.</p><img class="carrusel__imagen" src="assets/images/dior-sauvage.svg" width="400" height="500" alt="Dior Sauvage" loading="lazy"></div><div class="carrusel__diapositiva"><p class="portada__sobretitulo">Para regalar</p><h2>Estuches de regalo</h2><p>Sets completos para ella y para él, listos para sorprender.</p><img class="carrusel__imagen" src="assets/images/maison-illimani-estuche-regalo-ella.svg" width="400" height="500" alt="Estuches de regalo" loading="lazy"></div><div class="carrusel__puntos" id="carruselPuntos"></div>
+      <div class="portada__acciones" style="margin-top:18px"><a class="boton boton--primario" href="#catalogo">Explorar catálogo →</a><a class="boton boton--contorno" href="#contacto">Visitar boutique</a></div></div></section>
+    <section class="seccion seccion--tinta" id="colecciones"><div class="contenedor"><div class="seccion__encabezado"><p class="seccion__sobretitulo">Colecciones</p><h2 class="seccion__titulo">Encuentra tu <em>firma</em></h2></div>
+      <div class="categorias"><button class="categoria" data-ir-cat="Mujer" type="button"><span class="categoria__numero">01</span><span><span class="categoria__nombre">Para ella</span><span class="categoria__texto">Florales, cítricas y gourmand</span></span></button><button class="categoria" data-ir-cat="Hombre" type="button"><span class="categoria__numero">02</span><span><span class="categoria__nombre">Para él</span><span class="categoria__texto">Frescas, amaderadas y orientales</span></span></button><button class="categoria" data-ir-cat="Unisex" type="button"><span class="categoria__numero">03</span><span><span class="categoria__nombre">Unisex</span><span class="categoria__texto">Fragancias de la casa</span></span></button><button class="categoria" data-ir-cat="Estuches" type="button"><span class="categoria__numero">04</span><span><span class="categoria__nombre">Estuches y decants</span><span class="categoria__texto">Regalos y formatos para probar</span></span></button></div></div></section>
+    <section class="seccion"><div class="contenedor"><div class="seccion__encabezado"><p class="seccion__sobretitulo">Selección</p><h2 class="seccion__titulo">Los más <em>deseados</em></h2></div><div class="destacados" id="destacados"></div></div></section>
+    <section class="seccion" id="catalogo"><div class="contenedor">
+      <div class="seccion__encabezado"><p class="seccion__sobretitulo">Perfumería</p><h2 class="seccion__titulo">Catálogo de <em>fragancias</em></h2><p class="seccion__texto">Elige el formato (ml) y añade al carrito. Atención personalizada por WhatsApp.</p></div>
+      <div class="herramientas"><label class="buscador"><span aria-hidden="true">⌕</span><input class="buscador__campo" id="buscador" type="search" placeholder="Buscar en el catálogo..." aria-label="Buscar"></label>
+        <select class="selector" id="orden" aria-label="Ordenar"><option value="destacados">Destacados</option><option value="menor">Precio: menor a mayor</option><option value="mayor">Precio: mayor a menor</option><option value="nombre">Nombre A–Z</option></select></div>
+      <nav class="pestanas" id="pestanas" aria-label="Categorías"></nav>
+      <p class="conteo" id="conteo" aria-live="polite">—</p><p class="conteo" id="estadoCatalogo" aria-live="polite">Preparando catálogo...</p>
+      <div class="grilla" id="grilla" aria-live="polite"></div>
+      <div class="vacio" id="vacio" hidden><h3>No encontramos resultados</h3><p>Prueba con otra búsqueda o limpia los filtros.</p><button class="boton boton--contorno" id="limpiar" type="button">Limpiar filtros</button></div>
+    </div></section>
+    <section class="seccion seccion--tinta" id="filtros"><div class="contenedor">
+      <div class="seccion__encabezado"><p class="seccion__sobretitulo">Filtro dinámico</p><h2 class="seccion__titulo">Encuentra la <em>opción ideal</em></h2></div>
+      <div class="capas"><label class="capas__etiqueta" for="capa1">Capa 1 · <span id="capa1Titulo">—</span></label><select class="selector" id="capa1"></select>
+        <label class="capas__etiqueta" for="capa2">Capa 2 · <span id="capa2Titulo">—</span></label><select class="selector" id="capa2" disabled><option value="">-- Primero elija la capa 1 --</option></select>
+        <div class="capas__resultado" id="resultadoCapas" aria-live="polite">Seleccione las capas anteriores...</div></div>
+    </div></section>
+    <section class="seccion"><div class="contenedor"><div class="seccion__encabezado"><p class="seccion__sobretitulo">Guía olfativa</p><h2 class="seccion__titulo" id="notas">Aprende a <em>elegir</em></h2></div><div class="acordeon"><div class="acordeon__item"><button class="acordeon__boton" type="button" aria-expanded="false">Familias olfativas <span>+</span></button><div class="acordeon__panel" style="display:none"><b>Floral</b>: flores blancas y rosas. <b>Cítrico</b>: limón, bergamota, mandarina. <b>Amaderado</b>: cedro, vetiver, sándalo. <b>Oriental</b>: ámbar, especias, vainilla. <b>Gourmand</b>: notas dulces como café, praliné o cacao. <b>Fresco</b>: acuático, menta, aromático.</div></div><div class="acordeon__item"><button class="acordeon__boton" type="button" aria-expanded="false">Pirámide olfativa: notas de salida, corazón y fondo <span>+</span></button><div class="acordeon__panel" style="display:none">Las <b>notas de salida</b> se perciben primero (minutos), el <b>corazón</b> define el carácter (horas) y el <b>fondo</b> permanece más tiempo sobre la piel.</div></div><div class="acordeon__item"><button class="acordeon__boton" type="button" aria-expanded="false">¿Eau de Toilette o Eau de Parfum? <span>+</span></button><div class="acordeon__panel" style="display:none">El <b>Eau de Parfum</b> tiene mayor concentración de esencia y dura más; el <b>Eau de Toilette</b> es más ligero y fresco.</div></div><div class="acordeon__item"><button class="acordeon__boton" type="button" aria-expanded="false">¿Cómo hago mi pedido? <span>+</span></button><div class="acordeon__panel" style="display:none">Elige formato (ml), añade al carrito y finaliza. Se abre WhatsApp con el detalle de tu compra.</div></div><div class="acordeon__item"><button class="acordeon__boton" type="button" aria-expanded="false">Garantía y autenticidad <span>+</span></button><div class="acordeon__panel" style="display:none">Define aquí la política del negocio (autenticidad, cambios, devoluciones). Edítalo en el HTML.</div></div></div></div></section>
+    <section class="seccion" id="contacto"><div class="contenedor rejilla">
+      <div><div class="seccion__encabezado"><p class="seccion__sobretitulo">Hablemos</p><h2 class="seccion__titulo">Estamos para <em>ayudarte</em></h2><p class="seccion__texto">Escríbenos tu consulta. Si el negocio ya configuró su WhatsApp, se abrirá el chat con tu mensaje.</p></div>
+        <h3 class="tarjeta-info__titulo">Horarios</h3><ul class="horario" id="listaHorario"></ul><p class="seccion__texto" data-site="direccion"></p><a class="boton boton--contorno" id="enlaceWhatsapp" href="#contacto">Escribir por WhatsApp</a></div>
+      <form class="formulario" id="formContacto" novalidate>
+        <label class="campo">Nombre completo<input class="campo__entrada" id="cNombre" autocomplete="name"><small class="campo__error" id="errNombre" style="display:none">Ingresa al menos 2 caracteres.</small></label>
+        <label class="campo">Correo electrónico<input class="campo__entrada" id="cCorreo" type="email" autocomplete="email"><small class="campo__error" id="errCorreo" style="display:none">Escribe un correo válido.</small></label>
+        <label class="campo">Tu mensaje<textarea class="campo__entrada" id="cMensaje" rows="4"></textarea><small class="campo__error" id="errMensaje" style="display:none">Escribe un mensaje de al menos 8 caracteres.</small></label>
+        <button class="boton boton--primario" type="submit">Enviar consulta ↗</button>
+        <div class="alerta-ok" id="alertaOk" role="status" style="display:none">✅ ¡Gracias! Tu consulta quedó registrada en este dispositivo.</div>
+      </form></div></section>
+  </main>
+  <footer class="pie"><div class="contenedor"><div class="pie__rejilla">
+    <div><a class="marca" href="#inicio"><img class="marca__logo" src="assets/images/logo.svg" width="44" height="44" alt=""><span class="marca__texto"><b class="marca__nombre" data-site="nombre">Maison Illimani</b><small class="marca__lema" data-site="eslogan">Alta perfumería en Bolivia</small></span></a></div>
+    <div><h3 class="pie__titulo">Conócenos</h3><a class="pie__enlace" href="#catalogo">Catálogo</a><a class="pie__enlace" href="#contacto">Contacto</a></div>
+    <div><h3 class="pie__titulo">Redes sociales</h3><div id="listaRedes"></div></div></div>
+    <div class="pie__legal"><span>© <span id="anio">2026</span> Maison Illimani</span><span>Proyecto académico · Diseño Web II · UPDS La Paz</span><span>Marcas registradas de sus propietarios. Imágenes ilustrativas. Precios de ejemplo.</span></div></div></footer>
+  <button class="barra-carrito abrir-carrito" type="button"><span class="barra-carrito__cantidad" id="barraCantidad">0</span><span class="barra-carrito__texto">Ver carrito</span><strong id="barraTotal">—</strong></button>
+  <button class="subir" id="subir" type="button" aria-label="Volver arriba">↑</button>
+  <div class="avisos" id="avisos" aria-live="polite" aria-atomic="true"></div>
+  <div class="fondo-modal" id="fondoModal" hidden></div>
+  <aside class="carrito" id="carrito" aria-label="Carrito de compras">
+    <div class="carrito__cabecera"><h2 class="modal__titulo">Tu carrito <small id="carritoConteo">(0)</small></h2><button class="boton-icono" data-cerrar type="button" aria-label="Cerrar carrito">×</button></div>
+    <div class="carrito__lista" id="listaCarrito"></div>
+    <div class="carrito__pie">
+      <label class="campo">Entrega<select class="campo__entrada" id="entregaCarrito"></select></label>
+      <dl class="desglose"><div class="desglose__fila"><dt>Subtotal</dt><dd id="subtotal">—</dd></div><div class="desglose__fila"><dt>Entrega</dt><dd id="costoEntrega">—</dd></div><div class="desglose__fila desglose__fila--total"><dt>Total</dt><dd id="total">—</dd></div></dl>
+      <button class="boton boton--primario boton--lleno" id="btnPedido" type="button">Finalizar pedido ↗</button>
+      <button class="boton boton--contorno boton--lleno" data-cerrar type="button">← Seguir comprando</button>
+    </div>
+  </aside>
+  <section class="modal modal--ancho" id="modalProducto" role="dialog" aria-modal="true" aria-label="Detalle del producto" hidden><button class="modal__cerrar" data-cerrar type="button" aria-label="Cerrar">×</button><div class="detalle" id="contenidoProducto"></div></section>
+  <section class="modal" id="modalPedido" role="dialog" aria-modal="true" aria-labelledby="tituloPedido" hidden><button class="modal__cerrar" data-cerrar type="button" aria-label="Cerrar">×</button>
+    <h2 class="modal__titulo" id="tituloPedido">Confirmar pedido</h2><p class="modal__texto">Revisa los datos. Al confirmar se abre WhatsApp con tu pedido listo para enviar.</p>
+    <ul class="confirmacion"><li class="confirmacion__fila"><span>Resumen</span><b id="pedidoResumen">—</b></li><li class="confirmacion__fila"><span>Monto a cancelar</span><b id="pedidoTotal">—</b></li></ul>
+    <form class="formulario" id="formPedido" novalidate>
+      <label class="campo">Nombre completo<input class="campo__entrada" id="pedidoNombre" required minlength="2" autocomplete="name"></label>
+      <label class="campo">Teléfono / WhatsApp<input class="campo__entrada" id="pedidoTelefono" required inputmode="tel" pattern="[0-9 +\(\)\-]{7,}" autocomplete="tel"></label>
+      <label class="campo" id="pedidoDireccionCaja">Dirección o referencia de entrega<input class="campo__entrada" id="pedidoDireccion" autocomplete="street-address"></label>
+      <label class="campo">Nota adicional<textarea class="campo__entrada" id="pedidoNota" rows="2"></textarea></label>
+      <div class="modal__acciones"><button class="boton boton--contorno" type="button" data-cerrar>Cancelar</button><button class="boton boton--primario" type="submit">Enviar pedido</button></div>
+    </form></section>
+</body></html>

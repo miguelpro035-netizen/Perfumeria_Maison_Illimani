@@ -1,0 +1,682 @@
+[
+ {
+  "id": 1,
+  "nombre": "N°5",
+  "marca": "Chanel",
+  "categoria": "Mujer",
+  "genero": "Mujer",
+  "familia": "Floral",
+  "precio": 980,
+  "precioAnterior": 0,
+  "imagen": "assets/images/chanel-n-5.svg",
+  "insignia": "",
+  "resumen": "Clásico atemporal y elegante.",
+  "descripcion": "<b>Chanel</b> · Clásico atemporal y elegante. Notas: aldehídos, jazmín, rosa, vainilla.",
+  "destacado": true,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Chanel",
+   "Familia olfativa": "Floral",
+   "Notas": "aldehídos, jazmín, rosa, vainilla"
+  },
+  "etiquetas": [
+   "Chanel",
+   "Floral",
+   "Mujer"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 980
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 1450
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "nombre": "Sauvage",
+  "marca": "Dior",
+  "categoria": "Hombre",
+  "genero": "Hombre",
+  "familia": "Fresco",
+  "precio": 820,
+  "precioAnterior": 0,
+  "imagen": "assets/images/dior-sauvage.svg",
+  "insignia": "MÁS VENDIDO",
+  "resumen": "Fresco, intenso y versátil.",
+  "descripcion": "<b>Dior</b> · Fresco, intenso y versátil. Notas: bergamota, pimienta, ámbar.",
+  "destacado": true,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Dior",
+   "Familia olfativa": "Fresco",
+   "Notas": "bergamota, pimienta, ámbar"
+  },
+  "etiquetas": [
+   "Dior",
+   "Fresco",
+   "Hombre"
+  ],
+  "variantes": [
+   {
+    "nombre": "60 ml",
+    "precio": 820
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 1100
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "nombre": "Bleu",
+  "marca": "Chanel",
+  "categoria": "Hombre",
+  "genero": "Hombre",
+  "familia": "Amaderado",
+  "precio": 950,
+  "precioAnterior": 0,
+  "imagen": "assets/images/chanel-bleu.svg",
+  "insignia": "",
+  "resumen": "Amaderado aromático para el día a día.",
+  "descripcion": "<b>Chanel</b> · Amaderado aromático para el día a día. Notas: cítricos, incienso, cedro.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Chanel",
+   "Familia olfativa": "Amaderado",
+   "Notas": "cítricos, incienso, cedro"
+  },
+  "etiquetas": [
+   "Chanel",
+   "Amaderado",
+   "Hombre"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 950
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 1350
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "nombre": "Acqua di Giò",
+  "marca": "Armani",
+  "categoria": "Hombre",
+  "genero": "Hombre",
+  "familia": "Fresco",
+  "precio": 640,
+  "precioAnterior": 0,
+  "imagen": "assets/images/armani-acqua-di-gi.svg",
+  "insignia": "",
+  "resumen": "Frescura acuática y limpia.",
+  "descripcion": "<b>Armani</b> · Frescura acuática y limpia. Notas: marino, bergamota, romero.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Armani",
+   "Familia olfativa": "Fresco",
+   "Notas": "marino, bergamota, romero"
+  },
+  "etiquetas": [
+   "Armani",
+   "Fresco",
+   "Hombre"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 640
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 890
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "nombre": "Light Blue",
+  "marca": "Dolce&Gabbana",
+  "categoria": "Mujer",
+  "genero": "Mujer",
+  "familia": "Cítrico",
+  "precio": 560,
+  "precioAnterior": 0,
+  "imagen": "assets/images/dolce-gabbana-light-blue.svg",
+  "insignia": "",
+  "resumen": "Cítrico luminoso de verano.",
+  "descripcion": "<b>Dolce&Gabbana</b> · Cítrico luminoso de verano. Notas: limón siciliano, manzana, cedro.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Dolce&Gabbana",
+   "Familia olfativa": "Cítrico",
+   "Notas": "limón siciliano, manzana, cedro"
+  },
+  "etiquetas": [
+   "Dolce&Gabbana",
+   "Cítrico",
+   "Mujer"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 560
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 820
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "nombre": "Good Girl",
+  "marca": "Carolina Herrera",
+  "categoria": "Mujer",
+  "genero": "Mujer",
+  "familia": "Oriental",
+  "precio": 720,
+  "precioAnterior": 0,
+  "imagen": "assets/images/carolina-herrera-good-girl.svg",
+  "insignia": "",
+  "resumen": "Dulce, sensual y nocturno.",
+  "descripcion": "<b>Carolina Herrera</b> · Dulce, sensual y nocturno. Notas: jazmín, cacao, haba tonka.",
+  "destacado": true,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Carolina Herrera",
+   "Familia olfativa": "Oriental",
+   "Notas": "jazmín, cacao, haba tonka"
+  },
+  "etiquetas": [
+   "Carolina Herrera",
+   "Oriental",
+   "Mujer"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 720
+   },
+   {
+    "nombre": "80 ml",
+    "precio": 940
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "nombre": "1 Million",
+  "marca": "Paco Rabanne",
+  "categoria": "Hombre",
+  "genero": "Hombre",
+  "familia": "Oriental",
+  "precio": 640,
+  "precioAnterior": 0,
+  "imagen": "assets/images/paco-rabanne-1-million.svg",
+  "insignia": "",
+  "resumen": "Especiado y llamativo.",
+  "descripcion": "<b>Paco Rabanne</b> · Especiado y llamativo. Notas: mandarina, canela, cuero.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Paco Rabanne",
+   "Familia olfativa": "Oriental",
+   "Notas": "mandarina, canela, cuero"
+  },
+  "etiquetas": [
+   "Paco Rabanne",
+   "Oriental",
+   "Hombre"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 640
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 900
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "nombre": "Eros",
+  "marca": "Versace",
+  "categoria": "Hombre",
+  "genero": "Hombre",
+  "familia": "Fresco",
+  "precio": 600,
+  "precioAnterior": 0,
+  "imagen": "assets/images/versace-eros.svg",
+  "insignia": "",
+  "resumen": "Energía fresca y dulce.",
+  "descripcion": "<b>Versace</b> · Energía fresca y dulce. Notas: menta, manzana verde, vainilla.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Versace",
+   "Familia olfativa": "Fresco",
+   "Notas": "menta, manzana verde, vainilla"
+  },
+  "etiquetas": [
+   "Versace",
+   "Fresco",
+   "Hombre"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 600
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 860
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "nombre": "La Vie est Belle",
+  "marca": "Lancôme",
+  "categoria": "Mujer",
+  "genero": "Mujer",
+  "familia": "Gourmand",
+  "precio": 820,
+  "precioAnterior": 0,
+  "imagen": "assets/images/lanc-me-la-vie-est-belle.svg",
+  "insignia": "",
+  "resumen": "Dulce y luminoso.",
+  "descripcion": "<b>Lancôme</b> · Dulce y luminoso. Notas: iris, pachulí, praliné.",
+  "destacado": true,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Lancôme",
+   "Familia olfativa": "Gourmand",
+   "Notas": "iris, pachulí, praliné"
+  },
+  "etiquetas": [
+   "Lancôme",
+   "Gourmand",
+   "Mujer"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 820
+   },
+   {
+    "nombre": "75 ml",
+    "precio": 1020
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "nombre": "Black Opium",
+  "marca": "Yves Saint Laurent",
+  "categoria": "Mujer",
+  "genero": "Mujer",
+  "familia": "Gourmand",
+  "precio": 780,
+  "precioAnterior": 0,
+  "imagen": "assets/images/yves-saint-laurent-black-opium.svg",
+  "insignia": "",
+  "resumen": "Café y vainilla, noche intensa.",
+  "descripcion": "<b>Yves Saint Laurent</b> · Café y vainilla, noche intensa. Notas: café, vainilla, flor blanca.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Yves Saint Laurent",
+   "Familia olfativa": "Gourmand",
+   "Notas": "café, vainilla, flor blanca"
+  },
+  "etiquetas": [
+   "Yves Saint Laurent",
+   "Gourmand",
+   "Mujer"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 780
+   },
+   {
+    "nombre": "90 ml",
+    "precio": 1050
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "nombre": "Altiplano",
+  "marca": "Maison Illimani",
+  "categoria": "Unisex",
+  "genero": "Unisex",
+  "familia": "Amaderado",
+  "precio": 420,
+  "precioAnterior": 0,
+  "imagen": "assets/images/maison-illimani-altiplano.svg",
+  "insignia": "DE LA CASA",
+  "resumen": "Fragancia de la casa: amaderada y cálida.",
+  "descripcion": "<b>Maison Illimani</b> · Fragancia de la casa: amaderada y cálida. Notas: cedro, cuero, ámbar.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Maison Illimani",
+   "Familia olfativa": "Amaderado",
+   "Notas": "cedro, cuero, ámbar"
+  },
+  "etiquetas": [
+   "Maison Illimani",
+   "Amaderado",
+   "Unisex"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 420
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 690
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "nombre": "Illimani Noir",
+  "marca": "Maison Illimani",
+  "categoria": "Unisex",
+  "genero": "Unisex",
+  "familia": "Oriental",
+  "precio": 450,
+  "precioAnterior": 0,
+  "imagen": "assets/images/maison-illimani-illimani-noir.svg",
+  "insignia": "DE LA CASA",
+  "resumen": "Oriental profundo para noches especiales.",
+  "descripcion": "<b>Maison Illimani</b> · Oriental profundo para noches especiales. Notas: oud, incienso, vainilla.",
+  "destacado": true,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Maison Illimani",
+   "Familia olfativa": "Oriental",
+   "Notas": "oud, incienso, vainilla"
+  },
+  "etiquetas": [
+   "Maison Illimani",
+   "Oriental",
+   "Unisex"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 450
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 720
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "nombre": "Yungas",
+  "marca": "Maison Illimani",
+  "categoria": "Mujer",
+  "genero": "Mujer",
+  "familia": "Floral",
+  "precio": 400,
+  "precioAnterior": 0,
+  "imagen": "assets/images/maison-illimani-yungas.svg",
+  "insignia": "DE LA CASA",
+  "resumen": "Floral tropical y delicado.",
+  "descripcion": "<b>Maison Illimani</b> · Floral tropical y delicado. Notas: orquídea, magnolia, almizcle.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Maison Illimani",
+   "Familia olfativa": "Floral",
+   "Notas": "orquídea, magnolia, almizcle"
+  },
+  "etiquetas": [
+   "Maison Illimani",
+   "Floral",
+   "Mujer"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 400
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 660
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "nombre": "Titicaca",
+  "marca": "Maison Illimani",
+  "categoria": "Unisex",
+  "genero": "Unisex",
+  "familia": "Fresco",
+  "precio": 390,
+  "precioAnterior": 0,
+  "imagen": "assets/images/maison-illimani-titicaca.svg",
+  "insignia": "DE LA CASA",
+  "resumen": "Brisa lacustre, fresca y mineral.",
+  "descripcion": "<b>Maison Illimani</b> · Brisa lacustre, fresca y mineral. Notas: sal marina, lima, musgo.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Maison Illimani",
+   "Familia olfativa": "Fresco",
+   "Notas": "sal marina, lima, musgo"
+  },
+  "etiquetas": [
+   "Maison Illimani",
+   "Fresco",
+   "Unisex"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 390
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 640
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "nombre": "Cielo Paceño",
+  "marca": "Maison Illimani",
+  "categoria": "Mujer",
+  "genero": "Mujer",
+  "familia": "Cítrico",
+  "precio": 380,
+  "precioAnterior": 0,
+  "imagen": "assets/images/maison-illimani-cielo-pace-o.svg",
+  "insignia": "DE LA CASA",
+  "resumen": "Cítrico luminoso para el día.",
+  "descripcion": "<b>Maison Illimani</b> · Cítrico luminoso para el día. Notas: mandarina, neroli, té blanco.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Maison Illimani",
+   "Familia olfativa": "Cítrico",
+   "Notas": "mandarina, neroli, té blanco"
+  },
+  "etiquetas": [
+   "Maison Illimani",
+   "Cítrico",
+   "Mujer"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 380
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 620
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "nombre": "Ámbar 3600",
+  "marca": "Maison Illimani",
+  "categoria": "Hombre",
+  "genero": "Hombre",
+  "familia": "Amaderado",
+  "precio": 430,
+  "precioAnterior": 0,
+  "imagen": "assets/images/maison-illimani-mbar-3600.svg",
+  "insignia": "DE LA CASA",
+  "resumen": "Amaderado seco y elegante.",
+  "descripcion": "<b>Maison Illimani</b> · Amaderado seco y elegante. Notas: ámbar, vetiver, pimienta rosa.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Maison Illimani",
+   "Familia olfativa": "Amaderado",
+   "Notas": "ámbar, vetiver, pimienta rosa"
+  },
+  "etiquetas": [
+   "Maison Illimani",
+   "Amaderado",
+   "Hombre"
+  ],
+  "variantes": [
+   {
+    "nombre": "50 ml",
+    "precio": 430
+   },
+   {
+    "nombre": "100 ml",
+    "precio": 700
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "nombre": "Estuche Regalo Ella",
+  "marca": "Maison Illimani",
+  "categoria": "Estuches",
+  "genero": "Mujer",
+  "familia": "Floral",
+  "precio": 780,
+  "precioAnterior": 0,
+  "imagen": "assets/images/maison-illimani-estuche-regalo-ella.svg",
+  "insignia": "REGALO",
+  "resumen": "Regalo completo para ella.",
+  "descripcion": "<b>Maison Illimani</b> · Regalo completo para ella. Notas: Yungas 50 ml + crema corporal + vela.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Maison Illimani",
+   "Familia olfativa": "Floral",
+   "Notas": "Yungas 50 ml + crema corporal + vela"
+  },
+  "etiquetas": [
+   "Maison Illimani",
+   "Floral",
+   "Mujer"
+  ]
+ },
+ {
+  "id": 18,
+  "nombre": "Estuche Regalo Él",
+  "marca": "Maison Illimani",
+  "categoria": "Estuches",
+  "genero": "Hombre",
+  "familia": "Amaderado",
+  "precio": 820,
+  "precioAnterior": 0,
+  "imagen": "assets/images/maison-illimani-estuche-regalo-l.svg",
+  "insignia": "REGALO",
+  "resumen": "Regalo completo para él.",
+  "descripcion": "<b>Maison Illimani</b> · Regalo completo para él. Notas: Ámbar 3600 50 ml + after shave + neceser.",
+  "destacado": false,
+  "stock": 12,
+  "atributos": {
+   "Marca": "Maison Illimani",
+   "Familia olfativa": "Amaderado",
+   "Notas": "Ámbar 3600 50 ml + after shave + neceser"
+  },
+  "etiquetas": [
+   "Maison Illimani",
+   "Amaderado",
+   "Hombre"
+  ]
+ },
+ {
+  "id": 19,
+  "nombre": "Set Descubrimiento 5 Decants",
+  "marca": "Maison Illimani",
+  "categoria": "Estuches",
+  "genero": "Unisex",
+  "familia": "Amaderado",
+  "precio": 260,
+  "precioAnterior": 0,
+  "imagen": "assets/images/maison-illimani-set-descubrimiento-5-decants.svg",
+  "insignia": "PRUÉBALAS",
+  "resumen": "Prueba cinco fragancias antes de elegir.",
+  "descripcion": "<b>Maison Illimani</b> · Prueba cinco fragancias antes de elegir. Notas: 5 decants de 10 ml de la casa.",
+  "destacado": false,
+  "stock": 20,
+  "atributos": {
+   "Marca": "Maison Illimani",
+   "Familia olfativa": "Amaderado",
+   "Notas": "5 decants de 10 ml de la casa"
+  },
+  "etiquetas": [
+   "Maison Illimani",
+   "Amaderado",
+   "Unisex"
+  ]
+ },
+ {
+  "id": 20,
+  "nombre": "Decant 10 ml a elección",
+  "marca": "Maison Illimani",
+  "categoria": "Estuches",
+  "genero": "Unisex",
+  "familia": "Oriental",
+  "precio": 90,
+  "precioAnterior": 0,
+  "imagen": "assets/images/maison-illimani-decant-10-ml-a-elecci-n.svg",
+  "insignia": "",
+  "resumen": "Formato de viaje para probar.",
+  "descripcion": "<b>Maison Illimani</b> · Formato de viaje para probar. Notas: a elección entre las fragancias de la casa.",
+  "destacado": false,
+  "stock": 40,
+  "atributos": {
+   "Marca": "Maison Illimani",
+   "Familia olfativa": "Oriental",
+   "Notas": "a elección entre las fragancias de la casa"
+  },
+  "etiquetas": [
+   "Maison Illimani",
+   "Oriental",
+   "Unisex"
+  ]
+ }
+]

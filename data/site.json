@@ -1,0 +1,51 @@
+{
+ "nombre": "Maison Illimani",
+ "lema": "Perfumería de autor",
+ "eslogan": "Alta perfumería en Bolivia",
+ "moneda": "Bs",
+ "whatsapp": "",
+ "direccion": "La Paz, Bolivia — agrega aquí la dirección exacta del local.",
+ "horario": [
+  [
+   "Lunes a sábado",
+   "10:00 – 20:00"
+  ],
+  [
+   "Domingos",
+   "11:00 – 17:00"
+  ]
+ ],
+ "redes": {
+  "instagram": "",
+  "facebook": "",
+  "tiktok": ""
+ },
+ "entregas": [
+  {
+   "id": "retiro",
+   "nombre": "Retiro en tienda",
+   "costo": 0
+  },
+  {
+   "id": "lp",
+   "nombre": "Envío en La Paz / El Alto",
+   "costo": 15
+  },
+  {
+   "id": "nac",
+   "nombre": "Envío a otras ciudades (a coordinar)",
+   "costo": 35
+  }
+ ],
+ "filtros": {
+  "capa1": {
+   "campo": "genero",
+   "titulo": "Para"
+  },
+  "capa2": {
+   "campo": "familia",
+   "titulo": "Familia olfativa"
+  }
+ },
+ "_nota": "Datos de ejemplo: validar con el cliente. whatsapp: solo dígitos con código de país (ej. 59171234567)."
+}
